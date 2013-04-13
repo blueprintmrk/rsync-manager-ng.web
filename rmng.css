@@ -1,0 +1,59 @@
+body { font-family: Arial, Helvetica, sans-serif;
+	}
+
+body.logfile {font-family: "Courier New", Courier, monospace;
+		font-size:0.8em}
+table {border-collapse:collapse;
+	border: 1px solid black;}
+
+img.scaled {width: 20px;
+height: 20px;}
+
+
+
+th {	
+	font-size:0.8em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+th.servername {
+width: 110px;
+}
+th.duration {
+width: 110px;
+}
+th.total {
+width: 110px;
+}
+td.total {
+text-align:right;
+}
+
+
+th.trans {
+width: 110px;
+}
+td.trans {
+text-align:right;
+}
+
+
+th.jobstart {
+width: 170px;
+}
+
+th.status {
+width: 40px;
+}
+td.status {
+text-align: center;
+}
+
+th.over {
+width: 110px;
+}
+
+
+td {font-size:0.8em;
+border: 1px solid black;}
