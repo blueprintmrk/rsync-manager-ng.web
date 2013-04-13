@@ -2,6 +2,7 @@
 <link rel="stylesheet" type="text/css" href="rmng.css">
 <head>
 </head>
+<body class="logfile">
 <?php
 // Includes
 include __DIR__."/rmng_conf.php";
@@ -20,6 +21,7 @@ while($row = mysql_fetch_array($result)){
 	echo $arow."<br>";
 	}
 }
+echo "EOF";
 ?>
-
+</body>
 </html>
